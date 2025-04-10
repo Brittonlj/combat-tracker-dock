@@ -1,6 +1,6 @@
 import { MODULE_ID } from "../main.js";
 import { generateDescription, getInitiativeDisplay, getSystemIcons } from "../systems.js";
-import { tokenHasVision } from "../const.js";
+import { tokenHasVision } from "./Vision5eIntegration.js";
 
 export class CombatantPortrait {
     constructor(combatant) {

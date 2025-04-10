@@ -1,6 +1,6 @@
 import { MODULE_ID } from "../main.js";
 import { AddEvent } from "./AddEvent.js";
-import { tokenHasVision } from "../const.js";
+import { tokenHasVision } from "./Vision5eIntegration.js";
 
 export class CombatDock extends Application {
     constructor(combat) {
